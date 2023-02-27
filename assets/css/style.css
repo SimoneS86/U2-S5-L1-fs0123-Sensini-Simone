@@ -209,27 +209,32 @@ footer a {
         padding: 15px;
     }
     article h1 {
-        font-size: 5rem;;
+        font-size: 5rem;
     }
     header {
         text-align: unset;
         padding: 1em 1em;
+        font-size: 1.5rem;
     }
     header div {
         display: inline-block;
+        width: 75%;
     }
     header div img {
         display: inline-block;
         margin-bottom: unset;
+        vertical-align: middle;
     }
     header div p {
         display: inline-block;
         margin-bottom: unset;
+        vertical-align: middle;
     }
     header nav {
-        display: inline-block;  
-        margin-left: 20%;
+        display: inline-block;
+        margin-right: 20px;  
     }
+
     table {
         width: 65%;
         margin-block: 100px;
@@ -238,14 +243,15 @@ footer a {
         display: inline-block;
         width: 48%;
         margin-bottom: unset;
-        
+        height: 240px;
+        vertical-align: middle;
     }
     section {
         display: inline-block;
         width: 48%;
         margin-bottom: unset;
         border-radius: 20px;
-        
+        vertical-align: middle;
     }
     aside {
         margin-inline: auto;
